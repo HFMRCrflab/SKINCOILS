@@ -1,4 +1,39 @@
 # -*- coding: utf-8 -*-
+
+###############################################################################################################################
+###############################################################################################################################
+##                                                                                                                           ##
+##  MLC Shape Generator for SKINCOILS                                                                                        ##
+##                                                                                                                           ##
+##  Copyright (c) 2025:                                                                                                      ##
+##  Andreas Reich-Rohrwig,                                                                                                   ##
+##  Center for Medical Physics and Biomedical Engineering,                                                                   ##
+##  Medical University of Vienna                                                                                             ##
+##                                                                                                                           ##
+##                                                                                                                           ##
+##  Permission is granted to use, copy, modify, and distribute this software                                                 ##
+##  for academic and research purposes, provided that the above copyright                                                    ##
+##  notice and this permission notice appear in all copies and that proper                                                   ##
+##  acknowledgment is given in any publications or presentations based on                                                    ##
+##  this work.                                                                                                               ##
+##                                                                                                                           ##
+##                                                                                                                           ##
+##  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,                                                          ##
+##  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF                                                       ##
+##  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.                                                   ##
+##  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY                                                     ##
+##  CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,                                                    ##
+##  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE                                                        ##
+##  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.                                                                   ##
+##                                                                                                                           ##
+##                                                                                                                           ##
+##  For other uses (including commercial), please contact Roberta Frass-Kriegl:                                              ##
+##  roberta.frass@meduniwien.ac.at                                                                                           ##
+##                                                                                                                           ##
+###############################################################################################################################
+###############################################################################################################################
+
+
 import FreeCAD, Draft; from math import *
 def cosD(angle): return cos(angle*pi/180)
 def sinD(angle): return sin(angle*pi/180)
@@ -234,3 +269,4 @@ MLCshape = [ #Triangle BOT
 	[90,60,180]   ]
 drawWholeConductor()
 # ------------------------------------------------------------------------------------------------------------------------------
+
