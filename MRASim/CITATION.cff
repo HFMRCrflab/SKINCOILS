@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "SkinSim: a Bloch simulation for time-of-flight MR angiography of cutaneous vessels"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - given-names: Bastian
+    family-names: Rapp
+    affiliation: "High-Field MR Center, Center for Medical Physics and Biomedical Engineering, Medical University of Vienna, Vienna, Austria"
+license: MIT
+version: 2.0.0
+date-released: 2026-10-27
+abstract: >-
+  A Bloch simulation for time-of-flight MR angiography of small, slow-flowing
+  vessels in skin at 3 T. Tissue properties are specified as literature-derived
+  intervals and propagated by Latin hypercube sampling, so signal, contrast and
+  efficiency are returned as distributions. Sequence settings are free
+  parameters, supporting grid and continuous search over the protocol space.
+keywords:
+  - magnetic resonance imaging
+  - time-of-flight angiography
+  - Bloch simulation
+  - skin
+  - subcutaneous vessels

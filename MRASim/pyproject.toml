@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skinsim"
+version = "2.0.0"
+description = "Bloch simulation for time-of-flight MR angiography of small, slow-flowing vessels in skin at 3 T"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Bastian Rapp" }]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+requires-python = ">=3.11"
+keywords = ["MRI", "time-of-flight", "angiography", "Bloch simulation", "skin"]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["skinsim"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]
+filterwarnings = [
+    "ignore:invalid value encountered in subtract:RuntimeWarning",
+]
