@@ -1,4 +1,4 @@
-# SkinMRASim
+# MRASim
 
 Bloch simulation of time-of-flight contrast for small, slow-flowing vessels in
 skin at 3 T. Tissue properties are held as literature intervals rather than
